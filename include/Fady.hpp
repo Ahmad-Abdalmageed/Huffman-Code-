@@ -75,7 +75,7 @@ namespace file_decode
         {
             if (binaryCoded[i] == '0')
                 current = current->left;
-            else
+            else if (binaryCoded[i] == '1')
                 current = current->right;
             if (current->left == nullptr && current->right == nullptr) //reached leaf node
             {
