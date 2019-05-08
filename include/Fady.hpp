@@ -36,52 +36,56 @@ void readLegalWords(std::string filePath, std::vector<std::string> &V)
 
 namespace file_decode
 {
-std::string binary_code(std::string compressedfile)
-{
-    std::string stored;
-    std::string str;
-    std::ifstream file;
-    file.open(compressedfile);
-    if (!file)
+    //Utility function to read and store compressed file code
+
+    std::string binary_code(std::string compressedfile)
     {
-        std::cout << "Unable to open file datafile.txt";
-        exit(1); // call system to stop
-    }
-    else
-    {
-        while (std::getline(file, str))
+        std::string stored;
+        std::string str;
+        std::ifstream file;
+        file.open(compressedfile);
+        if (!file)
         {
-            if (str.size() > 0)
-                stored += str;
-
-            return stored;
+            std::cout << "Unable to open file datafile.txt";
+            exit(1); // call system to stop
         }
-    }
-    file.close();
-}
-void decode_Huffman_Data(Huffman::HuffNode *root, std::string compressedfile)
-{
-    std::string binaryCoded = binary_code(compressedfile);
-    std::string data_decoded; //string for storing the decoded data we need
-
-    Huffman::HuffNode *current = root;
-    std::ofstream out("data_decompressed.txt"); // for the  text file we will store in
-
-    for (int i = 0; i < binaryCoded.size(); i++) //iterate on the whole minheap
-    {
-        if (binaryCoded[i] == '0')
-            current = current->left;
         else
-            current = current->right;
-        if (current->left == nullptr && current->right == nullptr) //reached leaf node
         {
-            data_decoded += current->W.word + " ";
-            current = root;
+            while (std::getline(file, str))
+            {
+                if (str.size() > 0)
+                    stored += str;
+
+                return stored;
+            }
         }
+        file.close();
     }
-    out << data_decoded; // store it in the file
-    out.close();         // close it
-}
+
+    //Main Decoding function
+    void decode_Huffman_Data(Huffman::HuffNode *root, std::string compressedfile)
+    {
+        std::string binaryCoded = binary_code(compressedfile);
+        std::string data_decoded; //string for storing the decoded data we need
+
+        Huffman::HuffNode *current = root;
+        std::ofstream out("data_decompressed.txt"); // for the  text file we will store in
+
+        for (int i = 0; i < binaryCoded.size(); i++) //iterate on the whole Tree
+        {
+            if (binaryCoded[i] == '0')
+                current = current->left;
+            else
+                current = current->right;
+            if (current->left == nullptr && current->right == nullptr) //reached leaf node
+            {
+                data_decoded += current->W.word + " ";
+                current = root;
+            }
+        }
+        out << data_decoded; // store it in the file
+        out.close();         // close it
+    }
 
 } // namespace file_decode
 

@@ -12,8 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cb4953-b786-4f5e-9ba5-640452b09052" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compressed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compressed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Ahmad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Ahmad.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/Huffman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Huffman.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Fady.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Fady.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Ahmad.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="189" column="44" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
+            <state relative-caret-position="-2">
+              <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/Huffman.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="418">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -52,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/Fady.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="373">
+              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
               <folding>
                 <element signature="e#93#111#0" expanded="true" />
               </folding>
@@ -75,9 +77,9 @@
         <option value="$PROJECT_DIR$/tkInput.hpp" />
         <option value="$PROJECT_DIR$/Fady.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/include/Fady.hpp" />
-        <option value="$PROJECT_DIR$/apps/Huffman.cpp" />
         <option value="$PROJECT_DIR$/include/Ahmad.hpp" />
+        <option value="$PROJECT_DIR$/apps/Huffman.cpp" />
+        <option value="$PROJECT_DIR$/include/Fady.hpp" />
       </list>
     </option>
   </component>
@@ -144,7 +146,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="test_dll" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="data/Test.txt" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HUffman" TARGET_NAME="test_dll" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HUffman" RUN_TARGET_NAME="test_dll">
+    <configuration name="test_dll" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="data/Test.txt Compressed.txt" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HUffman" TARGET_NAME="test_dll" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HUffman" RUN_TARGET_NAME="test_dll">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -165,12 +167,12 @@
       <workItem from="1557250663212" duration="1539000" />
       <workItem from="1557263475407" duration="3241000" />
       <workItem from="1557303550315" duration="7762000" />
-      <workItem from="1557312829362" duration="4088000" />
+      <workItem from="1557312829362" duration="4988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20368000" />
+    <option name="totallyTimeSpent" value="21268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-7" width="1366" height="775" extended-state="6" />
@@ -181,8 +183,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5046729" side_tool="true" weight="0.16995448" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.55172414" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.20689656" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2492163" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52507836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,6 +265,11 @@
     </expressions>
     <expressions id="setValue">
       <expression>
+        <expression-string>88</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>79</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -293,30 +300,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Fady.hpp">
+    <entry file="file://$PROJECT_DIR$/include/Ahmad.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding>
-            <element signature="e#93#111#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2">
+          <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Huffman.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="418">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Ahmad.hpp">
+    <entry file="file://$PROJECT_DIR$/include/Fady.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="189" column="44" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
+        <state relative-caret-position="373">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+          <folding>
+            <element signature="e#93#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

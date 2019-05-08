@@ -30,14 +30,7 @@ int main(int argc , char ** argv)
 
     Tree.Make(v ,V) ;
 
-/*
-    if ( argc == 2 )
-    {
-        //Decompression
-        std::vector<std::string> compressed ;
-        file_read::readLegalWords(argv[2] ,compressed ) ;
-
-        file_decode::decode_Huffman_Data(Tree.buffer.front() ,) ;
-    }
-*/
+    //decoding
+    
+    file_decode::decode_Huffman_Data(Tree.buffer.front(),argv[2]) ;
 }
