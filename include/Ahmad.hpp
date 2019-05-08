@@ -166,7 +166,7 @@ namespace Huffman
                 POP();
                 HuffNode *n2 = buffer.front();
                 POP() ;
-                HuffNode *n = new HuffNode ( WordTree::wordCount(),n1 ,n2 ,nullptr,n1->F+n2->F );
+                HuffNode *n = new HuffNode ( WordTree::wordCount(),n2 ,n1 ,nullptr,n1->F+n2->F );
                 buffer.push_back(n) ;
             }
             return buffer.front() ;
@@ -186,8 +186,8 @@ namespace Huffman
 
             if (!ISleaf(Current))
             {
-                if (Current->right->F == f) return find(f,Current->right) ;
-                return find(f,Current->left) ;
+                if (Current->left->F == f) return find(f,Current->left) ;
+                return find(f,Current->right) ;
             }
             else {
                 return Current ;
@@ -205,7 +205,6 @@ namespace Huffman
 
             for ( int i = 0 ; i < vec.size() ; ++i)
             {
-                std::cout<<vec.size() ;
                 //count the word frequency
                 int f = WordTree::Wordvector::Counter(vec,vec[i]) ;
 
@@ -227,8 +226,8 @@ namespace Huffman
                 N->code = path ;
             }
             else {
-                Generate(N->left , path+'1') ;
-                Generate(N->right,path+'0') ;
+                Generate(N->left , path+'0') ;
+                Generate(N->right,path+'1') ;
             }
         }
 

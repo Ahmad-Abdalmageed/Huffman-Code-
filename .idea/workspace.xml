@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cb4953-b786-4f5e-9ba5-640452b09052" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compressed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compressed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Huffman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Huffman.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_dll.dir/apps/Huffman.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_dll" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Ahmad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Ahmad.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -38,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/Ahmad.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="249">
+              <caret line="189" column="44" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -47,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/Huffman.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+            <state relative-caret-position="87">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -59,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Fady.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="-150">
               <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="e#93#111#0" expanded="true" />
@@ -169,23 +165,24 @@
       <workItem from="1557250663212" duration="1539000" />
       <workItem from="1557263475407" duration="3241000" />
       <workItem from="1557303550315" duration="7762000" />
-      <workItem from="1557312829362" duration="3531000" />
+      <workItem from="1557312829362" duration="4088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19811000" />
+    <option name="totallyTimeSpent" value="20368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-7" width="1366" height="775" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49532712" weight="0.16995448" />
       <window_info id="Structure" order="1" sideWeight="0.5023585" side_tool="true" weight="0.16995448" />
       <window_info id="Favorites" order="2" sideWeight="0.5046729" side_tool="true" weight="0.16995448" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27586207" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1677116" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55172414" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.20689656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -214,17 +211,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/include/Ahmad.hpp</url>
-          <line>237</line>
+          <line>236</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/include/Ahmad.hpp</url>
-          <line>243</line>
+          <line>242</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/include/Ahmad.hpp</url>
-          <line>209</line>
+          <line>208</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -236,6 +233,11 @@
           <url>file://$PROJECT_DIR$/include/Ahmad.hpp</url>
           <line>186</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/apps/Huffman.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -260,6 +262,11 @@
       </expression>
     </expressions>
     <expressions id="setValue">
+      <expression>
+        <expression-string>79</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>80</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -288,7 +295,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Fady.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="-150">
           <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#93#111#0" expanded="true" />
@@ -298,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Huffman.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        <state relative-caret-position="87">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -308,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Ahmad.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        <state relative-caret-position="249">
+          <caret line="189" column="44" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="44" />
         </state>
       </provider>
     </entry>
