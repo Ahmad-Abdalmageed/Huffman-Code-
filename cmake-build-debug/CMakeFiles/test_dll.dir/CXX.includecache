@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Ahmad.hpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+queue
+-
+fstream
+-
+
+../include/Fady.hpp
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+Ahmad.hpp
+../include/Ahmad.hpp
+
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/apps/Huffman.cpp
+iostream
+-
+Fady.hpp
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/apps/Fady.hpp
+string
+-
+Ahmad.hpp
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/apps/Ahmad.hpp
+algorithm
+-
+fstream
+-
+

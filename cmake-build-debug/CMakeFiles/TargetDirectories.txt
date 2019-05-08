@@ -1,0 +1,3 @@
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/cmake-build-debug/CMakeFiles/test_dll.dir
+/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/cmake-build-debug/CMakeFiles/edit_cache.dir

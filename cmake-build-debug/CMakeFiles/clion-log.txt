@@ -1,0 +1,4 @@
+/home/ahmadmageed/Apps/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/ahmadmageed/My Stuff/Career/Programming/Programming Projects/Data Tasks/sbe201-2019-final-project-sbe201-2021-team06/cmake-build-debug
