@@ -142,24 +142,26 @@ namespace Huffman
 
         //THe main method that builds the tree
 
-        HuffNode* build (WordTree::Wordvector V )
+        HuffNode* build (WordTree::Wordvector  V )
         {
             while (!V.buffer.empty())
             {
                 //Creating huffman nodes from wordCounts
+                for (int i = 0 ; i < V.buffer.size() ; ++i)
+                {
+                    HuffNode* N = new HuffNode (V.buffer.back(), nullptr, nullptr, nullptr, V.buffer.back().number );
+                    buffer.push_back(N);
 
-                HuffNode* N = new HuffNode (V.buffer.front(), nullptr, nullptr, nullptr, V.buffer.front().number );
-                buffer.push_back(N);
-                V.buffer.pop_back();
+                    V.buffer.pop_back() ;
+                }
             }
 
-            //Heaping the buffer
-            HEAP();
 
             while (buffer.size()!=  1)
             {
+                //Heaping the buffer
+                HEAP();
                 // Forming the tree of huffman nodes
-
                 HuffNode *n1 = buffer.front();
                 POP();
                 HuffNode *n2 = buffer.front();
@@ -178,22 +180,17 @@ namespace Huffman
         //Recursive
         //This function finds a certain word in the Tree
 
-        HuffNode* find (std::string Word ,  HuffNode* Root)
+        HuffNode* find (int f, HuffNode* Root )
         {
             HuffNode*Current = Root ;
-            if (Current != nullptr )
-            {
-                //if(W.number < Current->left->F) return find(W,Word,Current->left) ;
 
-                if ( !ISleaf(Current))
-                {
-                    if (Current->left) return find(Word , Current->left) ;
-                    if (Current->right) return find(Word , Current->right) ;
-                }
-                if (Current->W.word == Word && ISleaf(Current))
-                {
-                    return Current;
-                }
+            if (!ISleaf(Current))
+            {
+                if (Current->right->F == f) return find(f,Current->right) ;
+                return find(f,Current->left) ;
+            }
+            else {
+                return Current ;
             }
         }
 
@@ -208,7 +205,11 @@ namespace Huffman
 
             for ( int i = 0 ; i < vec.size() ; ++i)
             {
-                X = find(vec[i],Y) ;
+                std::cout<<vec.size() ;
+                //count the word frequency
+                int f = WordTree::Wordvector::Counter(vec,vec[i]) ;
+
+                X = find(f,Y) ;
                 if (X != nullptr) myfile << X->code << " ";
             }
         }
@@ -226,8 +227,8 @@ namespace Huffman
                 N->code = path ;
             }
             else {
-                Generate(N->left , path+'0') ;
-                Generate(N->right,path+'1') ;
+                Generate(N->left , path+'1') ;
+                Generate(N->right,path+'0') ;
             }
         }
 

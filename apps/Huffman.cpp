@@ -29,7 +29,7 @@ int main(int argc , char ** argv)
     Huffman::HuffmanTree Tree ;
 
     Tree.Make(v ,V) ;
-    std::cout<<V.size() ;
+
 /*
     if ( argc == 2 )
     {
